@@ -3,7 +3,7 @@
 So far, I haven't found a good scientific definition of "Machine learning model interpretability" or how to measure the goodness of an explanation.
 Throughout the book, I will use this rather simple, yet elegant definition from @miller2017explanation: **Interpretability is the degree to which a human can understand the cause of a decision.**
 The higher the interpretability of a model, the easier it is for someone to comprehend why certain decisions (read: predictions) were made.
-A model has better interpretability than another model, if it's decisions are easier to comprehend for a human than decisions from the second model.
+A model has better interpretability than another model, if its decisions are easier to comprehend for a human than decisions from the second model.
 I will be using both the terms interpretable and explainable equally.
 
 ## The Importance of Interpretability {#interpretability.importance}
@@ -11,7 +11,7 @@ If a machine learning model performs well, **why not just trust** it and ignore 
 
 Let's dive deeper into the reasons why interpretability is so important.
 Machine learning has come to a state where you have to make a trade-off:
-Do you simply want to know **what** is predicted happen?
+Do you simply want to know **what** is predicted to happen?
 For example if a client will churn or if a medication will work well for a patient.
 Or do you want to know **why** something is predicted to happen and paying for the interpretability with accuracy?
 In some cases you don't  care why a decision was made, only the assurance that the predictive performance was good on a test dataset is enough.
@@ -40,7 +40,7 @@ If you can ensure that the machine learning model can explain decisions, the fol
 - Privacy: Sensitive information in the data is protected.
 - Reliability or Robustness: Small changes in the input don't lead to big changes in the prediction.
 - Causality: Only causal relationships are picked up. Meaning a predicted change in a decision due to arbitrary changes in the input values are also happening in reality.
-- Trust: It is easier for humans to trust into a system that explains it's decisions compared to a black box.
+- Trust: It is easier for humans to trust into a system that explains its decisions compared to a black box.
 
 
 ## Scope of Interpretability
